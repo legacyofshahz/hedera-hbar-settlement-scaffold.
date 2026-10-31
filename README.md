@@ -1,5 +1,9 @@
 # Hedera HBAR Settlement Scaffold
 
+<p align="center">
+  <img src="./assets/hedera-settlement-banner.svg" alt="Hedera HBAR Settlement Scaffold. Authorize, Guard, Settle, Prove." width="100%" />
+</p>
+
 **Build. Authorize. Settle. Verify.**
 
 [![Hedera](https://img.shields.io/badge/Hedera-HBAR-0B132B?style=flat-square)](https://hedera.com/)
