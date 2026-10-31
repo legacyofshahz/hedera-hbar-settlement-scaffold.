@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+<title id="title">Hedera HBAR Settlement Scaffold</title>
+<desc id="desc">Midnight navy technical banner with cyan and amber accents. Hedera HBAR Settlement Scaffold, Authorize Guard Settle Prove, and a geometric settlement network motif.</desc>
+<defs>
+<linearGradient id="night" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#031528"/><stop offset=".58" stop-color="#070F20"/><stop offset="1" stop-color="#211123"/></linearGradient>
+<linearGradient id="spectrum" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#00CDE8"/><stop offset=".55" stop-color="#F2FAFF"/><stop offset=".78" stop-color="#E61929"/><stop offset="1" stop-color="#FFC46B"/></linearGradient>
+<linearGradient id="cool" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#00CDE8"/><stop offset="1" stop-color="#93ECF7"/></linearGradient>
+<linearGradient id="warm" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#E61929"/><stop offset="1" stop-color="#FFC46B"/></linearGradient>
+</defs>
+<rect width="1200" height="360" fill="url(#night)"/>
+<path d="M25 0 L65 360 M82 0 L118 360 M1111 0 L1148 360 M1163 0 L1197 360" stroke="#00CDE8" stroke-opacity=".12" stroke-width="4"/>
+<path d="M0 354 H1200" stroke="url(#spectrum)" stroke-width="6"/>
+<path d="M73 69 H462" stroke="url(#spectrum)" stroke-width="2" stroke-opacity=".85"/>
+<text x="73" y="51" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="700" letter-spacing="3.1" fill="#A6E9F2">HEDERA  /  OPEN-SOURCE INFRASTRUCTURE</text>
+<text x="70" y="142" font-family="Arial,Helvetica,sans-serif" font-size="72" font-weight="800" letter-spacing="1.5" fill="url(#cool)">HBAR</text>
+<text x="300" y="142" font-family="Arial,Helvetica,sans-serif" font-size="65" font-weight="700" letter-spacing=".3" fill="#F6FBFF">SETTLEMENT</text>
+<text x="73" y="226" font-family="Arial,Helvetica,sans-serif" font-size="75" font-weight="800" letter-spacing="2.5" fill="#F6FBFF">SCAFFOLD</text>
+<path d="M74 250 H745" stroke="#9AD7E6" stroke-opacity=".4" stroke-width="1"/>
+<text x="73" y="284" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="700" letter-spacing="1.1" fill="#D5EDF4">AUTHORIZE  /  GUARD  /  SETTLE  /  PROVE</text>
+<text x="73" y="324" font-family="Arial,Helvetica,sans-serif" font-size="16" letter-spacing="1" fill="#E0B9A9">EIP-712  •  SUPRA  •  HEDERA EVM  •  MIRROR NODE  •  HCS</text>
+<g fill="none" stroke-width="2">
+<path d="M848 72 L938 124 L938 229 L848 282 M938 124 L1037 73 L1130 126 L1130 231 L1037 284 L938 229" stroke="#88D8E4" stroke-opacity=".45"/>
+<path d="M848 72 L1037 284 M848 282 L1130 126 M1037 73 L938 229" stroke="#FFC46B" stroke-opacity=".25"/>
+<path d="M1037 73 L1037 284 M848 72 L1130 231" stroke="#68CADB" stroke-opacity=".16"/>
+<circle cx="988" cy="177" r="100" stroke="#8EDCE7" stroke-opacity=".17"/>
+<circle cx="988" cy="177" r="68" stroke="#FFC46B" stroke-opacity=".29"/>
+<polygon points="988,131 1027,154 1027,200 988,223 949,200 949,154" stroke="url(#spectrum)" stroke-width="5"/>
+</g>
+<circle cx="988" cy="177" r="12" fill="#A5EDF6"/>
+<circle cx="848" cy="72" r="6" fill="#00CDE8"/>
+<circle cx="848" cy="282" r="6" fill="#00CDE8"/>
+<circle cx="1037" cy="73" r="6" fill="#FFC46B"/>
+<circle cx="1130" cy="126" r="6" fill="#FFC46B"/>
+<circle cx="1130" cy="231" r="6" fill="#E61929"/>
+<circle cx="1037" cy="284" r="6" fill="#FFC46B"/>
+<text x="1129" y="51" text-anchor="end" font-family="Arial,Helvetica,sans-serif" font-size="14" font-weight="700" letter-spacing="1.2" fill="#FFCF9A">HEDERA TESTNET</text>
+</svg>
