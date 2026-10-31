@@ -1,6 +1,8 @@
-# Oracle-Guarded Sovereign Settlement — Scaffold-HBAR Template
+# Hedera HBAR Settlement Scaffold
 
-A production-oriented Scaffold-HBAR template for **policy-constrained HBAR settlements** on Hedera. A settlement is authorized off-chain with EIP-712, checked on-chain against a live **Supra** price feed and freshness bound, executed on Hedera, independently verified through a **Hedera Mirror Node**, and anchored as a compact integrity record in **Hedera Consensus Service (HCS)**.
+**Build. Authorize. Settle. Verify.**
+
+A testnet-first Scaffold-HBAR template for **policy-constrained HBAR settlements** on Hedera. A settlement is authorized off-chain with EIP-712, checked on-chain against a live **Supra** price feed and freshness bound, executed on Hedera, independently verified through a **Hedera Mirror Node**, and anchored as a compact integrity record in **Hedera Consensus Service (HCS)**.
 
 This is a reusable pattern for treasury payouts, agent spending controls, escrow release, commerce settlement, and other systems where **"submitted" must not be confused with "verified and evidenced."**
 
