@@ -2,6 +2,33 @@
 
 **Build. Authorize. Settle. Verify.**
 
+[![Hedera](https://img.shields.io/badge/Hedera-HBAR-0B132B?style=flat-square)](https://hedera.com/)
+![Network](https://img.shields.io/badge/Network-Testnet-00CDE8?style=flat-square)
+![Solidity](https://img.shields.io/badge/Solidity-Hardhat-4A5568?style=flat-square)
+![Authorization](https://img.shields.io/badge/Authorization-EIP--712-8044DB?style=flat-square)
+![License](https://img.shields.io/badge/License-MIT-FF7900?style=flat-square)
+
+> **For blockchain and Web3 builders:** develop bounded HBAR settlements with EIP-712 authorization, Supra oracle price/freshness guards, independent Hedera Mirror Node verification, and HCS integrity evidence.
+
+**[Explore the architecture](#architecture)** · **[Run the scaffold](#install-and-validate)** · **[Inspect real testnet evidence](#verified-hedera-testnet-evidence)**
+
+| Pipeline | What it checks |
+| :--- | :--- |
+| **Authorize** | EIP-712 signed intent, expiry and replay protection |
+| **Guard** | Supra price range and timestamp freshness |
+| **Settle** | Policy-constrained HBAR execution on Hedera EVM |
+| **Prove** | Mirror Node contract verification and HCS evidence anchoring |
+
+**Public testnet proof:** [Settlement transaction](https://hashscan.io/testnet/transaction/0x900e24a5817b928a9f2f92aceab6ae0c4f0cbe59fb1927ba4ce7c5fee92877c9) · [Mirror Node result](https://testnet.mirrornode.hedera.com/api/v1/contracts/results/0x900e24a5817b928a9f2f92aceab6ae0c4f0cbe59fb1927ba4ce7c5fee92877c9) · [HCS evidence](https://testnet.mirrornode.hedera.com/api/v1/topics/0.0.10639224/messages/1)
+
+**Use cases:** programmable treasury payouts · agent spending controls · escrow settlement · verifiable on-chain payment workflows.
+
+**Qualification:** reusable testnet reference implementation. A published testnet proof is not a production audit, mainnet qualification, or commercial settlement.
+
+---
+
+## About this project
+
 A testnet-first Scaffold-HBAR template for **policy-constrained HBAR settlements** on Hedera. A settlement is authorized off-chain with EIP-712, checked on-chain against a live **Supra** price feed and freshness bound, executed on Hedera, independently verified through a **Hedera Mirror Node**, and anchored as a compact integrity record in **Hedera Consensus Service (HCS)**.
 
 This is a reusable pattern for treasury payouts, agent spending controls, escrow release, commerce settlement, and other systems where **"submitted" must not be confused with "verified and evidenced."**
@@ -60,13 +87,13 @@ No mainnet key is required or recommended for this template.
 
 ## Scaffold
 
-After the repository is public:
+This project is a public, reusable Scaffold-HBAR template. The command below uses the original repository path, which GitHub redirects after the repository rename. Recheck the generated project before relying on this redirect in automation:
 
 ```bash
 npm create scaffold-hbar@latest -- --template legacyofshahz/scaffold-hbar-sovereign-settlement
 ```
 
-Until publication, clone the repository and run the same validation commands below.
+For a deterministic starting point, clone the repository and run the validation commands below. See the GitHub repository URL for the current canonical clone address.
 
 On Windows, `scripts/qualify-and-publish.ps1` performs the local install/check gate and, when GitHub CLI is installed and authenticated, creates or updates the target public repository. It does not accept or print blockchain private keys. After publication, GitHub Actions independently performs the external Scaffold-HBAR generation gate.
 
@@ -140,7 +167,7 @@ The proof script performs one bounded testnet settlement and:
 7. verifies the HCS transaction through Mirror Node;
 8. writes `evidence/testnet-proof.json` locally.
 
-The bounty submission should publish the resulting **HashScan/Mirror references**, not credentials.
+Share **HashScan/Mirror Node references**, never credentials. Existing recorded testnet proof is linked above; a fresh proof requires a separate funded testnet account and valid oracle feed.
 
 ## Safety / authority model
 
