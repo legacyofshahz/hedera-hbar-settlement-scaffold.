@@ -14,7 +14,7 @@
 
 > **For blockchain and Web3 builders:** develop bounded HBAR settlements with EIP-712 authorization, Supra oracle price/freshness guards, independent Hedera Mirror Node verification, and HCS integrity evidence.
 
-**[Explore the architecture](#architecture)** · **[Run the scaffold](#install-and-validate)** · **[Inspect real testnet evidence](#verified-hedera-testnet-evidence)**
+**[Explore the architecture](#architecture)** · **[Run the scaffold](#install-and-validate)** · **[Verify the public proof](./docs/VERIFY_TESTNET_PROOF.md)** · **[Inspect recorded evidence](#verified-hedera-testnet-evidence)**
 
 | Pipeline | What it checks |
 | :--- | :--- |
