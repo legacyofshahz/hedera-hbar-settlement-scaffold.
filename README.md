@@ -103,6 +103,8 @@ On Windows, `scripts/qualify-and-publish.ps1` performs the local install/check g
 
 ## Install and validate
 
+Community contributions are welcome. See the [contribution guide](./CONTRIBUTING.md) for reproducible setup, suitable first improvements, and security boundaries.
+
 ```bash
 npm install
 npm run self-check
